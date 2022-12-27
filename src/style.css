@@ -1,10 +1,12 @@
 /* styles go here */
 .input_field {
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .group_field {
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .input_last_field {
