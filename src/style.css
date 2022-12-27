@@ -1,1 +1,24 @@
 /* styles go here */
+.input_field {
+  margin: 10px;
+}
+
+.group_field {
+  margin: 20px;
+}
+
+.input_last_field {
+  margin-top: 10px;
+}
+
+.input_first_field {
+  margin-bottom: 10px;
+}
+
+.group_last_field {
+  margin-top: 20px;
+}
+
+.group_first_field {
+  margin-bottom: 20px;
+}
