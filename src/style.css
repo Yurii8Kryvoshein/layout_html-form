@@ -24,3 +24,11 @@
 .group_first_field {
   margin-bottom: 20px;
 }
+
+label {
+  display: block;
+}
+
+.input_first_field_inline {
+  display: inline-block;
+}

@@ -15,116 +15,107 @@
     
     <fieldset class="group_first_field">
       <legend>Personal information</legend>
-      <div class="input_first_field">
-        <label for="surname_field">Surname:</label>
-        <input 
-          id="surname_field" 
+      <label class="input_first_field">
+        Surname:
+        <input  
           type="text"
           name="surname"
           autocomplete="off"
         >
-      </div>
-      <div class="input_field">
-        <label for="name_field">Name:</label>
-        <input 
-          id="name_field" 
+      </label>
+      <label class="input_field">
+        Name:
+        <input  
           type="text"
           name="name"
           autocomplete="off"
         >
-      </div>
-      <div class="input_field">
-        <label for="age_field">How old are You?</label>
+      </label>
+      <label class="input_field">
+        How old are You?
         <input
-          id="age_field"
           type="number"
           name="age"
           min="1"
           max="100"
           value="12"
         >
-      </div>
-      <div class="input_field">
-        <label for="birth_field">Full date of birth:</label>
+      </label>
+      <label class="input_field">
+        Full date of birth:
         <input 
-            id="birth_field"
-            type="date"
-            name="birthday"
-            min="1900-01-01"
-            max="2022-12-27"
+          type="date"
+          name="birthday"
+          min="1900-01-01"
+          max="2022-12-27"
         >
-      </div>
-      <div class="input_last_field">
-        <label for="checkbox_field">I accept the term of the agreement  
-        </label>
+      </label>
+      <label class="input_last_field">
+        I accept the term of the agreement  
         <input 
-          id="checkbox_field"
           type="checkbox"
           name="terms"
         >
-      </div>
+      </label>
     </fieldset>
+
     <fieldset class="group_field">
       <legend>Registration</legend>
-      <div class="input_first_field">
-        <label for="email_field">E-mail:</label>
+      <label class="input_first_field">
+        E-mail:
         <input 
-          id="email_field"
           type="email"
           name="email"
           placeholder="email@example.com"
         >
-      </div>
-      <div class="input_last_field">
-        <label for="password_field">Password:</label>
+      </label>
+      <label class="input_last_field">
+        Password:
         <input 
-          id="password_field"
           type="password"
           name="password"
           minlength="8"
           maxlength="32"
         >
-      </div>
+      </label>
     </fieldset>
+    
     <fieldset class="group_field">
       <legend>An interesting fact about you!</legend>
-      <div class="input_first_field">
-        <label>Do you love cats?</label>
+      Do you love cats?
+      <label class="input_first_field_inline">
         <input 
-          id="cat_love_field"
           type="radio"
           name="radio"
           value="yes"
         >
-        <label for="cat_love_field">Yes</label>
+        Yes
+      </label>
+      <label class="input_first_field_inline">
         <input 
-            id="cat_hate_field"
-            type="radio"
-            name="radio"
-            value="no"
+          type="radio"
+          name="radio"
+          value="no"
         >
-        <label for="cat_hate_field">No</label>
-      </div>
-      <div class="input_field">
-        <label for="favourite_color">What is your favorite color?</label>
+        No
+      </label>
+      <label class="input_field">
+        What is your favorite color?
         <input 
-          id="favourite_color"
           type="color"
           name="color"
         >
-      </div>
-      <div class="input_field">
-        <label for="time_for_going_to_bed_field">What time do you go to bed?</label>
+      </label>
+      <label class="input_field">
+        What time do you go to bed?
         <input 
           type="time" 
-          id="time_for_going_to_bed_field"
           name="sleepTime"
         >
-      </div>
-      <div class="input_field">
-        <label for="favourite_brand_of_cars_field">What are your favorite brand of cars?</label>
+      </label>
+      <label class="input_field">
+        What are your favorite brand of cars?
         <select 
-          id="favourite_brand_of_cars_field" 
           name="favouriteCars"
           multiple
         >
@@ -132,48 +123,43 @@
           <option value="Audi">Audi</option>
           <option value="Lada">Lada</option>
         </select>
-      </div>
-      <div class="input_last_field">
-        <label for="work_rate_field">How do you rate our work?</label>
+      </label>
+      <label class="input_last_field">
+          How do you rate our work?
         <input 
-          id="work_rate_field"
           type="range"
           min="0"
           max="10"
           value="0"
         >
-      </div>
+      </label>
     </fieldset>
+    
     <fieldset class="group_field">
       <legend>Additional info:</legend>
-      <div class="input_first_field">
-        <label for="comments_field">Comments:</label>
+      <label class="input_first_field">
+        Comments:
         <textarea 
-          id="comments_field" 
           name="comments"
        ></textarea>
-      </div>
-      <div class="input_last_field">
-        <label for="recommend_us_question_field">Would you recommend us?</label>
-        <select 
-          id="recommend_us_question_field" 
-          name="recommendation">
+      </label>
+      <label class="input_last_field">
+        Would you recommend us?
+        <select
+            name="recommendation"
+        >
           <option value="yes" selected>Yes</option>
           <option value="no">No</option>
         </select>
-      </div>
+      </label>
     </fieldset>
-    <div class="group_last_field">
+    <label class="group_last_field">
       <form 
         method="get" 
         action="https://mate-academy-form-lesson.herokuapp.com/create-application">
-        <label for="submit_field"></label>
-        <input 
-        id="submit_field" 
-        type="submit"
-      >
+        <button type="submit">Submit</button>
       </form>
-    </div>
+    </label>
   </body>
 </html>
 
