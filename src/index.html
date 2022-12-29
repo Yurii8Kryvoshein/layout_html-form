@@ -13,9 +13,9 @@
   <body>
     <script type="text/javascript" src="./main.js"></script>
     
-    <fieldset class="group_first_field">
+    <fieldset class="group_field">
       <legend>Personal information</legend>
-      <label class="input_first_field">
+      <label class="input_field">
         Surname:
         <input  
           type="text"
@@ -61,7 +61,7 @@
 
     <fieldset class="group_field">
       <legend>Registration</legend>
-      <label class="input_first_field">
+      <label class="input_field">
         E-mail:
         <input 
           type="email"
@@ -83,15 +83,16 @@
     <fieldset class="group_field">
       <legend>An interesting fact about you!</legend>
       Do you love cats?
-      <label class="input_first_field_inline">
+      <label class="input_field inline_blk">
         <input 
           type="radio"
           name="radio"
-          value="yes"
-        >
+          alue="yes"
+        > 
         Yes
       </label>
-      <label class="input_first_field_inline">
+    
+      <label class="input_field inline_blk">
         <input 
           type="radio"
           name="radio"
@@ -137,7 +138,7 @@
     
     <fieldset class="group_field">
       <legend>Additional info:</legend>
-      <label class="input_first_field">
+      <label class="input_field">
         Comments:
         <textarea 
           name="comments"
@@ -153,7 +154,7 @@
         </select>
       </label>
     </fieldset>
-    <label class="group_last_field">
+    <label class="group_field group_last_field">
       <form 
         method="get" 
         action="https://mate-academy-form-lesson.herokuapp.com/create-application">

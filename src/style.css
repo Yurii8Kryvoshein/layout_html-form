@@ -1,27 +1,9 @@
 /* styles go here */
-.input_field {
-  margin-top: 10px;
+.input_field:not(.input_last_field) {
   margin-bottom: 10px;
 }
 
-.group_field {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.input_last_field {
-  margin-top: 10px;
-}
-
-.input_first_field {
-  margin-bottom: 10px;
-}
-
-.group_last_field {
-  margin-top: 20px;
-}
-
-.group_first_field {
+.group_field:not(.group_last_field) {
   margin-bottom: 20px;
 }
 
@@ -29,6 +11,11 @@ label {
   display: block;
 }
 
-.input_first_field_inline {
+.inline_blk {
   display: inline-block;
 }
+
+/* input {
+  border: 1px solid rgba(255, 255, 255, 0);
+  background: linear-gradient(0deg, #FFFFFF 0%, #F6F6F7 100%);
+} */
