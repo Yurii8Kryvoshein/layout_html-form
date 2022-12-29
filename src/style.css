@@ -1,5 +1,5 @@
 /* styles go here */
-.input_field:not(.input_last_field) {
+.block_cover:not(.block_last_cover) {
   margin-bottom: 10px;
 }
 
@@ -7,15 +7,14 @@
   margin-bottom: 20px;
 }
 
-label {
+/* label {
   display: block;
 }
 
 .inline_blk {
   display: inline-block;
-}
+} */
 
 /* input {
   border: 1px solid rgba(255, 255, 255, 0);
-  background: linear-gradient(0deg, #FFFFFF 0%, #F6F6F7 100%);
 } */

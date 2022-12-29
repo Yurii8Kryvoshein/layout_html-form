@@ -15,152 +15,181 @@
     
     <fieldset class="group_field">
       <legend>Personal information</legend>
-      <label class="input_field">
-        Surname:
-        <input  
-          type="text"
-          name="surname"
-          autocomplete="off"
-        >
-      </label>
-      <label class="input_field">
-        Name:
-        <input  
-          type="text"
-          name="name"
-          autocomplete="off"
-        >
-      </label>
-      <label class="input_field">
-        How old are You?
-        <input
-          type="number"
-          name="age"
-          min="1"
-          max="100"
-          value="12"
-        >
-      </label>
-      <label class="input_field">
-        Full date of birth:
-        <input 
-          type="date"
-          name="birthday"
-          min="1900-01-01"
-          max="2022-12-27"
-        >
-      </label>
-      <label class="input_last_field">
-        I accept the term of the agreement  
-        <input 
-          type="checkbox"
-          name="terms"
-        >
-      </label>
+      <div class="block_cover">
+        <label class="input_field">
+          Surname:
+          <input  
+            type="text"
+            name="surname"
+            autocomplete="off"
+          >
+        </label>
+      </div>
+      <div class="block_cover">
+        <label class="input_field">
+          Name:
+          <input
+            type="text"
+            name="name"
+            autocomplete="off"
+          >
+        </label>
+      </div>
+      <div class="block_cover">
+        <label class="input_field">
+          How old are You?
+          <input
+            type="number"
+            name="age"
+            min="1"
+            max="100"
+            value="12"
+          >
+        </label>
+      </div>
+      <div class="block_cover">
+        <label class="input_field">
+          Full date of birth:
+          <input
+            type="date"
+            name="birthday"
+            min="1900-01-01"
+            max="2022-12-27"
+          >
+        </label>
+      </div>
+      <div class="block_cover block_last_cover">
+        <label class="input_last_field">
+          I accept the term of the agreement
+          <input
+            type="checkbox"
+            name="terms"
+          >
+        </label>
+      </div>
     </fieldset>
 
     <fieldset class="group_field">
       <legend>Registration</legend>
-      <label class="input_field">
-        E-mail:
-        <input 
-          type="email"
-          name="email"
-          placeholder="email@example.com"
-        >
-      </label>
-      <label class="input_last_field">
-        Password:
-        <input 
-          type="password"
-          name="password"
-          minlength="8"
-          maxlength="32"
-        >
-      </label>
+      <div class="block_cover">
+        <label class="input_field">
+          E-mail:
+          <input
+            type="email"
+            name="email"
+            placeholder="email@example.com"
+          >
+        </label>
+      </div>
+      <div class="block_cover block_last_cover">
+        <label class="input_last_field">
+          Password:
+          <input
+            type="password"
+            name="password"
+            minlength="8"
+            maxlength="32"
+          >
+        </label>
+      </div>
     </fieldset>
     
     <fieldset class="group_field">
       <legend>An interesting fact about you!</legend>
-      Do you love cats?
-      <label class="input_field inline_blk">
-        <input 
-          type="radio"
-          name="radio"
-          alue="yes"
-        > 
-        Yes
-      </label>
-    
-      <label class="input_field inline_blk">
-        <input 
-          type="radio"
-          name="radio"
-          value="no"
-        >
-        No
-      </label>
-      <label class="input_field">
-        What is your favorite color?
-        <input 
-          type="color"
-          name="color"
-        >
-      </label>
-      <label class="input_field">
-        What time do you go to bed?
-        <input 
-          type="time" 
-          name="sleepTime"
-        >
-      </label>
-      <label class="input_field">
-        What are your favorite brand of cars?
-        <select 
-          name="favouriteCars"
-          multiple
-        >
-          <option value="BMW">BMW</option>
-          <option value="Audi">Audi</option>
-          <option value="Lada">Lada</option>
-        </select>
-      </label>
-      <label class="input_last_field">
-          How do you rate our work?
-        <input 
-          type="range"
-          min="0"
-          max="10"
-          value="0"
-        >
-      </label>
+      <div class="block_cover">
+        Do you love cats?
+        <label class="input_field inline_blk">
+          <input
+            type="radio"
+            name="radio"
+            alue="yes"
+          >
+          Yes
+        </label>
+        <label class="input_field inline_blk">
+          <input
+            type="radio"
+            name="radio"
+            value="no"
+          >
+          No
+        </label>
+      </div>
+      <div class="block_cover">
+        <label class="input_field">
+          What is your favorite color?
+          <input
+            type="color"
+            name="color"
+          >
+        </label>
+      </div>
+      <div class="block_cover">
+        <label class="input_field">
+          What time do you go to bed?
+          <input
+            type="time"
+            name="sleepTime"
+          >
+        </label>
+      </div>
+      <div class="block_cover">
+        <label class="input_field">
+          What are your favorite brand of cars?
+          <select
+            name="favouriteCars"
+            multiple
+          >
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Lada">Lada</option>
+          </select>
+        </label>
+      </div>
+      <div class="block_cover block_last_cover">
+        <label class="input_last_field">
+            How do you rate our work?
+          <input
+            type="range"
+            min="0"
+            max="10"
+            value="0"
+          >
+        </label>
+      </div>
     </fieldset>
     
     <fieldset class="group_field">
       <legend>Additional info:</legend>
-      <label class="input_field">
-        Comments:
-        <textarea 
-          name="comments"
-       ></textarea>
-      </label>
-      <label class="input_last_field">
-        Would you recommend us?
-        <select
-            name="recommendation"
-        >
-          <option value="yes" selected>Yes</option>
-          <option value="no">No</option>
-        </select>
-      </label>
+      <div class="block_cover">
+        <label class="input_field">
+          Comments:
+          <textarea
+            name="comments"
+         ></textarea>
+        </label>
+      </div>
+      <div class="block_cover block_last_cover">
+        <label class="input_last_field">
+          Would you recommend us?
+          <select
+              name="recommendation"
+          >
+            <option value="yes" selected>Yes</option>
+            <option value="no">No</option>
+          </select>
+        </label>
+      </div>
     </fieldset>
-    <label class="group_field group_last_field">
-      <form 
-        method="get" 
-        action="https://mate-academy-form-lesson.herokuapp.com/create-application">
-        <button type="submit">Submit</button>
-      </form>
-    </label>
+    <div class="block_cover">
+      <label class="group_field group_last_field">
+        <form
+          method="get"
+          action="https://mate-academy-form-lesson.herokuapp.com/create-application">
+          <button type="submit">Submit</button>
+        </form>
+      </label>
+    </div>
   </body>
 </html>
 
